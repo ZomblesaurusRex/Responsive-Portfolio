@@ -57,7 +57,7 @@ h3 {
 /* header */
 
 #masthead {
-  position: fixed;
+  position: absolute;
   z-index: 99;
   width: 100%;
   margin: 0 0 30px;
@@ -82,7 +82,9 @@ h3 {
 }
 
 nav {
-  float: right;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
   margin-top: 25px;
   min-width: 350px;
 }
